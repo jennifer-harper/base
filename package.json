@@ -1,0 +1,29 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Base for localhost & handlebars practise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index --ignore */data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifer-harper/base.git"
+  },
+  "author": "Jen Harper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifer-harper/base/issues"
+  },
+  "homepage": "https://github.com/jennifer-harper/base#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.1",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
